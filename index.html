@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perú York Times</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="loading-screen">
+        <h1>Perú York Times</h1>
+        <div class="loader"></div>
+      </div>
+
+      
+    <div id="titlediv">
+        <h1 id="title">Perú York Times</h1>
+    </div>
+
+    <div id="subtitulos">
+        <h2 id="manjarperu">Manjares Del Perú: Cuyos</h2>
+    </div>
+    
+    <div id="ApartadoFoto">
+        <div id="fotoperu">
+            <img id="foto" src="Captura.PNG" alt="CuyAsado">
+        </div>
+        <div>
+            <p id="texto">Nada mas sabroso que un rico Cuy asado en una mañana</p>
+        </div>
+    </div>
+    
+    <div id="botondiv">
+        <button id="btn-platillo" onclick="cambiarImagen()">Cambiar Platillo</button>
+    </div>
+    
+    <div id="subtitulos">
+        <h2 id="manjarperu">Peinados a la Moda:</h2>
+    </div>
+    
+    <div id="ApartadoPeinados">
+            <img class="fotopeinado" src="Insano1.PNG" alt="Peinados">
+            <img class="fotopeinado" src="Insano2.PNG" alt="Peinados">
+            <img class="fotopeinado" src="Insano3.PNG" alt="Peinados">
+            <img class="fotopeinado" src="Insano4.PNG" alt="Peinados">
+    </div>
+
+    <div id="anuncio">  
+        <div id="titulosponsor">Anuncio del Sponsor</div>
+            <img id="imagens" src="maincra.PNG" alt="Anuncio De Sponsor">          
+    </div>
+
+    <div id="subtitulos"><h2>Reflexion Del Día</h2></div>
+    <div>
+        <button id="btn-reproducir">Reproducir audio</button>
+    </div>
+    
+    <div id="popup" class="popup">
+        <img src="JosesitoFreFire.PNG" alt="Anuncio">
+        <p>JosesitoFreeFire buscando duo a 3km.</p>
+        <button id="btn-cerrar">Cerrar</button>
+      </div>
+
+    <p id="hora-actual"></p>
+
+    <div class="rating">
+        <input type="radio" id="star5" name="rating" value="5" />
+        <label for="star5"></label>
+        <input type="radio" id="star4" name="rating" value="4" />
+        <label for="star4"></label>
+        <input type="radio" id="star3" name="rating" value="3" />
+        <label for="star3"></label>
+        <input type="radio" id="star2" name="rating" value="2" />
+        <label for="star2"></label>
+        <input type="radio" id="star1" name="rating" value="1" />
+        <label for="star1"></label>
+    </div>
+    <p id="tiempo-restante"></p>
+
+    <p id="promedio-calificaciones">Promedio de calificaciones: --</p>
+
+    <button id="btn-reset">Reiniciar Promedio</button>
+
+    <input type="text" id="myInput">
+    <button onclick="guardarTexto()">Guardar</button>
+    <div id="textoGuardado"></div>
+
+
+    <div class="circulo-verde"></div>
+
+    <div id="final">
+        <h2>Final</h2>
+        <p>¡No borres Perú York Times! </p>
+        <p>+500 lineas de codigo HTML, CSS y JavaScript.</p>
+        <p>Ultima actualización: 24/06/23.</p>
+    </div>
+    <!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+</body>
+</html>
